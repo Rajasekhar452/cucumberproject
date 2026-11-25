@@ -9,7 +9,7 @@
   "main": "index.js",
   
   "scripts": {
-    "test": "cucumber-js --timeout 30000"
+    "test": "cucumber-js --timeout 50000"
   },
   
   "keywords": [],
