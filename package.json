@@ -9,7 +9,10 @@
   "main": "index.js",
   
   "scripts": {
-    "test": "cucumber-js --timeout 50000"
+  
+    
+  "test": "cucumber-js --timeout 30000"
+  
   },
   
   "keywords": [],
@@ -21,6 +24,9 @@
   "type": "commonjs",
   
   "devDependencies": {
+  
+    
+  "@cucumber/cucumber": "^13.3.0",
   
     
   "@playwright/test": "^1.64.1",
@@ -36,11 +42,7 @@
   "dependencies": {
   
     
-  "@cucumber/cucumber": "^13.3.0",
-  
-    
   "save-dev": "^0.0.1-security"
-
- 
+  
   }
 }
